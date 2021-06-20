@@ -1,4 +1,4 @@
-# wicked_cranium_rarity_order  
+# wicked cranium rarity order  
   
 Quick little script to calculate the rarity order of Craniums using a basic weighting approach.  
   
