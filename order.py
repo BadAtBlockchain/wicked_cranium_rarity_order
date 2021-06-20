@@ -61,9 +61,10 @@ def write_out_results(sorted_results):
     with open(RESULTS_FILE, 'a') as f:
         for cr in sorted_results:
             num = cr.name.split("#")[1]
-            f.write('{} | {} | https://raw.githubusercontent.com/recklesslabs/wickedcraniums/main/{}\n'.format(
+            f.write('{} | {} | https://raw.githubusercontent.com/recklesslabs/wickedcraniums/main/{} | https://opensea.io/assets/0x85f740958906b317de6ed79663012859067e745b/{}\n'.format(
                 cr.name,
                 cr.weighting,
+                num,
                 num
             ))
 
